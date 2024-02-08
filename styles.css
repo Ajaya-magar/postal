@@ -1,0 +1,100 @@
+body {
+	background: grey;
+	padding: 100px;
+}
+* {
+	border: 1px dashed black;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 500px;
+	height: 350px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 120px;
+	height: 60px;
+}
+.postcard-header h1 {
+	width: 70%;
+	margin: 0;
+	text-align: center;
+}
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px black solid;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: 8px 15px;
+}
+
+body {
+	background: grey;
+	padding: 100px;
+}
+* {
+	border: 1px dashed black;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 700px;
+	height: 250px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 180px;
+	height: 60px;
+}
+.postcard-header h1 {
+	width: 70%;
+	margin: 0;
+	text-align: center;
+}
+.postcard-body {
+	display: flex;
+	height: 50%;
+}
+
+.body-left p:first-child {
+	margin: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px black solid;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: 8px 15px;
+}
